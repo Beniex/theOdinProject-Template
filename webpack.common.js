@@ -3,8 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    app: './src/index.js',
-  },
+    index: path.resolve(__dirname, 'src/index.js'),
+},
   plugins: [
     new HtmlWebpackPlugin({
       title: 'theOdinProject-Template',
