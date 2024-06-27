@@ -9,6 +9,7 @@ peut etre pas  npm install --save lodash
 npm install --save-dev style-loader css-loader
 npm install --save-dev webpack-dev-server
 npm install --save-dev express webpack-dev-middleware
+npm install --save-dev webpack-merge
 
 begin with  :
 
